@@ -428,23 +428,638 @@ header .close-btn {
   display: inline-block;
 }
 
+/* section 6 */
+
 .section-6 .inner {
   padding: 120px 24px
 }
 
-.section-6 .title {
-  margin-bottom: 48px;
+.section-6 .desc {
+  margin-top: 48px;
+}
+
+.section-6 .curriculum {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.section-6 .curriculum .curri-btn-list {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 64px;
+}
+
+.section-6 .curriculum .curri-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 48px;
+  border-radius: 41px;
+  border: 1px solid #ccc;
+  color: var(--color-text-03);
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.section-6 .curriculum .curri-btn.is-active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 48px;
+  border-radius: 41px;
+  border: none;
+  box-shadow: 0px 3px 6px #00000029;
+  background-color: #2C68FF;
+  color: var(--color-white);
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.section-6 .curriculum .curri-detail {
+  display: none;
+}
+
+.section-6 .curriculum .curri-detail.is-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-6 .curriculum .curri-detail .curri-title {
+  font-size: 24px;
+  font-weight: var(--font-extrabold);
+  margin-bottom: 40px;
+  color: #2C68FF;
+}
+
+.section-6 .curriculum .curri-detail .week-detail-list {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+} 
+
+.section-6 .curriculum .curri-detail .week-detail-list .week-wrap{
+  width: 234px;
+  height: 304px;
+  background-color: #F5F7F9;
+  border-radius: 8px;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+.section-6 .curriculum .week-wrap .week-count {
+  font-size: 14px;
+  border: 1px solid #2C68FF;
+  color: #2C68FF;
+  border-radius: 18px;
+  padding: 6px 0 4px;
+  width: 54px;
+  box-sizing: border-box;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.section-6 .curriculum .week-wrap > ul {
+  font-size: 18px;
+  font-weight: var(--font-medium);
+  color: var(--color-text-01);
+}
+.section-6 .curriculum .week-wrap > ul > li {
+  margin-bottom: 8px;
+}
+
+/* section 7 */
+
+.section-7 {
+  background-color: #F5F8FF;
+}
+
+.section-7 .inner {
+  padding: 160px 24px;
+}
+
+.section-7 .project-img {
+  background: url('./images/kdcLandingProject_Web.png') no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 472px;
+  margin-top: 80px;
 }
 
 
+.section-7 .projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 80px;
+}
+
+.section-7 .projects .project-1,
+.section-7 .projects .project-2,
+.section-7 .projects .project-3 {
+  display: flex;
+}
+
+.section-7 .projects .left {
+  border-radius: 20px 0 0 20px;
+  padding: 48px 24px;
+  width: 340px;
+  box-sizing: border-box;
+}
+
+.section-7 .projects .left-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-7 .projects .project-1 .left {
+  background-color: #3079B5;
+}
+
+.section-7 .projects .project-2 .left {
+  background-color: #175091;
+}
+
+.section-7 .projects .project-3 .left {
+  background-color: #0B3769;
+}
+
+.section-7 .projects .left .project-num {
+  color: var(--color-white);
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.section-7 .projects .left .project-needs {
+  color: #EBEBEB;
+  font-size: var(--font-size-body);
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.section-7 .projects .left .project-name {
+  color: var(--color-white);
+  font-size: var(--font-size-desc);
+  font-weight: var(--font-bold);
+  text-align: center;
+}
+
+.section-7 .projects .right {
+  border-radius: 0 20px 20px 0;
+  padding: 24px 0 24px 24px;
+  background-color: var(--color-white);
+  width: 480px;
+  box-sizing: border-box;
+}
+
+.section-7 .projects .right .project-desc {
+  font-size: 18px;
+  color: var(--color-text-01);
+  font-weight: var(--font-bold);
+  margin-bottom: 24px;
+}
+
+.section-7 .projects .right-wrap>div {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  font-weight: var(--font-extrabold);
+  color: var(--color-text-02);
+  margin-bottom: 24px;
+}
+
+.section-7 .project-1 .right-wrap .highlight {
+  color: #3079B5;
+}
+
+.section-7 .project-2 .right-wrap .highlight {
+  color: #175091;
+}
+
+.section-7 .project-3 .right-wrap .highlight {
+  color: #0B3769;
+}
+
+.section-7 .projects .right-wrap .use-case {
+  display: flex;
+  gap: 12px;
+}
+
+.section-7 .projects .right-wrap .use-case li {
+  font-size: var(--font-size-caption);
+  font-weight: var(--font-bold);
+  padding: 8px 12px 6px 12px;
+  border-radius: 100px;
+}
+
+.section-7 .project-1 .right-wrap .use-case li {
+  border: 1px solid #3079B5;
+  color: #3079B5;
+}
+
+.section-7 .project-2 .right-wrap .use-case li {
+  border: 1px solid #175091;
+  color: #175091;
+}
+
+.section-7 .project-3 .right-wrap .use-case li {
+  border: 1px solid #0B3769;
+  color: #0B3769;
+}
 
 
+/* Section 8 */
 
+.section-8 {
+  background-color: #002141;
+}
+
+.section-8 .inner {
+  padding: 120px 24px;
+}
+
+.section-8 .title {
+  color: var(--color-white);
+  margin-bottom: 40px;
+}
+
+.section-8 .desc {
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.section-8 figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-8 figure img {
+  width: 500px;
+}
+
+.section-8 figure .instructor {
+  color: var(--color-white);
+  font-size: 40px;
+  font-weight: var(--font-bold);
+  margin-bottom: 24px;
+}
+
+.section-8 figure .instructor span {
+  padding-left: 8px;
+  font-size: 28px;
+}
+
+.section-8 figcaption ul li {
+  font-size: 16px;
+  font-weight: var(--font-medium);
+  color: var(--color-gray);
+  margin-bottom: 8px;
+}
+
+/* section 9 */
+.section-9 {
+  background: transparent linear-gradient(180deg, #FFFFFF 0%, #E8F3FF 100%) 0% 0% no-repeat;
+}
+
+.section-9 .inner {
+  padding: 160px 24px;
+}
+
+.section-9 .title {
+  margin-top: 16px;
+}
+
+.section-9 .img {
+  background: url('./images/kdcLandingComparing_Web.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 502px;
+  margin-top: 120px;
+}
+
+/* section 10 */
+
+.section-10 {
+  background-color: #010D30;
+}
+
+.section-10 .inner {
+  padding: 120px 24px;
+}
+
+.section-10 .title {
+  color: var(--color-white);
+}
+
+.section-10 .recommend-case {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin: 60px auto 0;
+  width: 800px;
+}
+
+.section-10 .recommend-case .case-1,
+.section-10 .recommend-case .case-3 {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.section-10 .recommend-case .case-2 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 16px;
+}
+
+.section-10 .recommend-case .character {
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%;
+  width: 240px;
+  height: 220px;
+}
+
+.section-10 .case-1 .character {
+  background-image: linear-gradient(180deg, rgba(1, 13, 48, 0) 60%, rgba(1, 13, 48, 1) 83%, rgba(1, 13, 48, 1) 100%), url('/images/kdcLandingCaseP1.png');
+  transform: scaleX(-1);
+}
+
+.section-10 .case-2 .character {
+  background-image: linear-gradient(180deg, rgba(1, 13, 48, 0) 60%, rgba(1, 13, 48, 1) 83%, rgba(1, 13, 48, 1) 100%), url('/images/kdcLandingCaseP2.png');
+}
+
+.section-10 .case-3 .character {
+  background-image: linear-gradient(180deg, rgba(1, 13, 48, 0) 60%, rgba(1, 13, 48, 1) 83%, rgba(1, 13, 48, 1) 100%), url('/images/kdcLandingCaseP3.png');
+}
+
+.section-10 .recommend-case .speech {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-white);
+  font-size: var(--font-size-desc);
+  font-weight: var(--font-medium);
+  width: 500px;
+  height: 120px;
+  border-radius: 81px;
+}
+
+.section-10 .case-1 .speech {
+  background-color: #667FE6;
+  text-align: center;
+}
+
+.section-10 .case-2 .speech {
+  color: var(--color-black);
+  background-color: var(--color-white);
+  text-align: center;
+}
+
+.section-10 .case-3 .speech {
+  background-color: #66A6E6;
+  text-align: center;
+}
+
+/* section 11 */
+
+.section-11 {
+  background-color: #EDEDED;
+}
+
+.section-11 .inner {
+  padding: 120px 24px;
+  position: relative;
+}
+
+.section-11 .sub-title {
+  text-align: center;
+  font-size: 24px;
+}
+
+.section-11 .title {
+  margin-top: 16px;
+}
+
+.section-11 .swiper {
+  margin-top: 80px;
+  width: 100%;
+}
+
+.section-11 .swiper .swiper-wrapper {
+  display: flex;
+}
+
+.section-11 .swiper-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  background-color: var(--color-white);
+  width: 588px;
+  height: 500px;
+  border: 1px solid #D8D8D8;
+  border-radius: 20px;
+  padding: 40px 40px 0 40px;
+  box-sizing: border-box;
+  /* box-shadow: 0px 10px 15px #00000029; */
+}
+
+.section-11 .swiper-button-next,
+.section-11 .swiper-button-prev {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  top: 58%;
+  background-color: #9A9A9A;
+  border-radius: 100%;
+  color: var(--color-white);
+}
+
+.section-11 .swiper-button-next::after,
+.section-11 .swiper-button-prev::after {
+  display: none;
+}
+
+.section-11 .swiper-button-prev {
+  left: -80px;
+}
+
+.section-11 .swiper-button-next {
+  right: -80px;
+}
+
+.section-11 .swiper-button-prev > svg,
+.section-11 .swiper-button-next > svg {
+  width: 32px;
+  height: 32px;
+}
+
+.section-11 .user {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.section-11 .user .user-img-1{
+  background-image: url('images/kdcLandingReview1_Web.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  width: 134px;
+  height: 134px;
+}
+
+.section-11 .user .user-img-2{
+  background-image: url('images/kdcLandingReview2_Web.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  width: 134px;
+  height: 134px;
+}
+
+.section-11 .user .user-img-3{
+  background-image: url('images/kdcLandingReview3_Web.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  width: 134px;
+  height: 134px;
+}
+
+.section-11 .user .user-info{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.section-11 .user .user-info .name{
+  font-size: 24px;
+  font-weight: var(--font-extrabold);
+  color: var(--color-text-01);
+  margin-bottom: 8px;
+}
+
+.section-11 .user .user-info .course{
+  font-size: 18px;
+  font-weight: var(--font-medium);
+  color: var(--color-text-03);
+}
+
+.section-11 .swiper-slide .heading {
+  font-size: 28px;
+  font-weight: var(--font-heavy);
+  color: #394DD1;
+  text-align: left;
+}
+
+.section-11 .swiper-slide .content {
+  font-size: 18px;
+  font-weight: var(--font-medium);
+  color: var(--color-text-02);
+  word-break: keep-all;
+}
+
+/* section 12 */
+
+.section-12 .inner {
+  padding: 120px 24px;
+}
+
+.section-12 .title {
+  text-align: start;
+}
+
+.section-12 .faq-section > h3 {
+  font-size: 24px;
+  margin-top: 32px;
+}
+
+.section-12 .faq-section ul li:first-child {
+  margin-top: 24px;
+}
+
+.section-12 .section-12-wrap .faq-section:last-child {
+  margin-bottom: 0;
+}
+
+.section-12 .accordion .accordion-item {
+  margin-bottom: 24px;
+}
+
+.section-12 .accordion .accordion-item:last-child {
+  margin-bottom: 0;
+}
+
+.section-12 .accordion .acc-btn {
+  background-color: transparent;
+  border: none;
+}
+
+.section-12 .accordion h4 {
+  font-size: 18px;
+  font-weight: var(--font-extrabold);
+  color: var(--color-text-02);
+  height: 100%;
+}
+
+.section-12 .accordion .acc-btn.active h4 {
+  color: var(--color-blue);
+}
+
+.section-12 .accordion-item .accordion-panel {
+  background-color: #F5F5F5;
+  border-radius: 24px;
+  display: none;
+  overflow: hidden;
+  margin-left: 16px;
+  margin-top: 12px;
+}
+
+.section-12 .accordion-item .accordion-panel > p {
+  width: 1125px;
+  padding: 24px;
+  word-break: keep-all;
+  font-size: 16px;
+  font-weight: var(--font-medium);
+  color: var(--color-text-01);
+  line-height: 1.25;
+}
+
+.section-12 .accordion-item .accordion-panel > p > a{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 8px;
+}
+
+.section-12 .accordion-item .accordion-panel > p > a:last-child {
+  margin-bottom: 0px;
+}
 
 
 @media screen and (max-width: 800px) {
   .inner {
     width: 100%;
+  }
+
+  .title {
+    font-size: 22px;
+  }
+
+  .desc {
+    font-size: 16px;
   }
   
   header .logo {
@@ -523,13 +1138,9 @@ header .close-btn {
   .section-3 .inner {
     padding: 40px 24px;
   }
-  .section-3 .title {
-    font-size: 22px;
-  }
   
   .section-3 .desc {
     margin-top: 24px;
-    font-size: 16px;
     word-break: keep-all;
     line-height: 1.25;
   }
@@ -582,13 +1193,11 @@ header .close-btn {
   }
 
   .section-4 .title {
-    font-size: 22px;
     margin-bottom: 24px;
   }
 
   .section-4 .desc {
     margin: 0 auto;
-    font-size: 16px;
     width: 80%;
     word-break: keep-all;
   }
@@ -633,17 +1242,17 @@ header .close-btn {
 
   /* section 5 */
 
-  .section-5 .left-img {
+   .section-5 .left-img {
     background: url('./images/kdcFigureLeft_Mobile.png') no-repeat;
     background-size: contain;
-    width: 100px;
+    width: 80px;
     height: 216px;
   }
-  /* 크기가 다름요 */
+
   .section-5 .right-img {
     background: url('./images/kdcFigureRight_Mobile.png') no-repeat;
     background-size: contain;
-    width: 100px;
+    width: 80px;
     height: 216px;
   }
 
@@ -653,12 +1262,40 @@ header .close-btn {
   }
 
   .section-5 .title {
-    font-size: 22px;
     margin: 0;
+    margin-top: 24px;
   }
 
   .section-5 .desc {
-    font-size:  16px;
-    margin: 0;
+    margin: 16px auto 0;
+    width: 80%;
+  }
+
+  /* section 6 */
+
+  .section-6 .inner {
+    padding: 40px 24px;
+  }
+
+  .section-6 .desc {
+    margin: 16px auto 0;
+    word-break: keep-all;
+  }
+
+  .section-6 .curriculum .curri-btn-list {
+    width: 100%;
+    /* display: grid;
+    grid-template-columns: repeat(1, 1fr); */
+    gap: 16px;
+  }
+
+  .section-6 .curriculum .curri-btn {
+    font-size: 16px;
+    height: 40px;
+  }
+
+  .section-6 .curriculum .curri-btn.curri-btn.is-active {
+    font-size: 16px;
+    height: 40px;
   }
 }

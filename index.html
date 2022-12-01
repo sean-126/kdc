@@ -8,8 +8,10 @@
   <title>Document</title>
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   <link rel="stylesheet" href="./style.css">
-
+  
 
 </head>
 
@@ -147,6 +149,7 @@
     </div>
   </section>
 
+  <!-- section 4 -->
   <section class="section-4">
     <div class="inner">
       
@@ -211,6 +214,7 @@
     </div>
   </section>
 
+  <!-- section 5 -->
   <section class="section-5">
     <div class="img">
       <div class="left-img"></div>
@@ -224,20 +228,560 @@
     </div>
   </section>
   
+  <!-- section 6 -->
   <section class="section-6">
     <div class="inner">
 
       <h3 class="title">한눈에 알아보는 주차별 커리큘럼</h3>
       <p class="desc">아무것도 몰라도 시작할 수 있어요! 매주 강의 1시간 + 실습 1시간, 총 2시간만 투자한다면 어느새 늘어나는 데이터 사이언스 Skill Up!</p>
 
-      <div class="test">테스트</div>
-      <ul class="test-input"></ul>
+      <div class="curriculum">
+        <div class="curri-btn-list">
+          <div class="curri-btn is-active">1~2주차</div>
+          <div class="curri-btn">3~6주차</div>
+          <div class="curri-btn">7~9주차</div>
+          <div class="curri-btn">10~12주차</div>
+        </div>
+
+        <div class="curri-detail-list">
+            <div class="curri-detail is-view">
+              <div class="curri-title">AI 초압축 이론 / 파이썬 프로그래밍</div>
+              <div class="week-detail-list">
+                <div class="week-wrap">
+                  <div class="week-count">1주차</div>
+                  <ul>
+                    <li>・ 오리엔테이션</li>
+                    <li>・ 인공지능 기초개념</li>
+                    <li>・ 인공지능 학습방법</li>
+                    <li>・ 파이썬 소개</li>
+                    <li>・ 파이썬 실습환경</li>
+                    <li>・ 파이썬의 기초</li>
+                    <li>・ 파이썬의 연산</li>
+                  </ul>
+                </div>
+                <div class="week-wrap">
+                  <div class="week-count">2주차</div>
+                  <ul>
+                    <li>・ 변수와 데이터</li>
+                    <li>・ 문자열 포매팅</li>
+                    <li>・ 컬렉션 데이터</li>
+                    <li>・ 조건문과 반복문</li>
+                    <li>・ 함수의 사용</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="curri-detail">
+              <div class="curri-title">데이터 분석 및  시각화</div>
+              <div class="week-detail-list">
+                <div class="week-wrap">
+                  <div class="week-count">3주차</div>
+                  <ul>
+                    <li>・ 데이터 활용 방법</li>
+                    <li>・ 데이터 구조 이해</li>
+                    <li>・ 데이터를 다루는 도구</li>
+                    <li>・ Pandas 사용법</li>
+                  </ul>
+                </div>
+  
+                <div class="week-wrap">
+                  <div class="week-count">4주차</div>
+                  <ul>
+                    <li>・ 결측치와 이상치</li>
+                    <li>・ 데이터 살펴보기</li>
+                    <li>・ 상관관계 파악</li>
+                    <li>・ 그룹별 연산</li>
+                  </ul>
+                </div>
+  
+                <div class="week-wrap">
+                  <div class="week-count">5주차</div>
+                  <ul>
+                    <li>・ 클라우드 분석환경</li>
+                    <li>・ 탐색적 데이터 분석</li>
+                    <li>・ 그룹별 연산 적용</li>
+                    <li>・ 데이터 변환</li>
+                  </ul>
+                </div>
+  
+                <div class="week-wrap">
+                  <div class="week-count">6주차</div>
+                  <ul>
+                    <li>・ 데이터 시각화</li>
+                    <li>・ 시각화 디자인 옵션</li>
+                    <li>・ 분석과정 리뷰</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="curri-detail">
+              <div class="curri-title">머신러닝 모델링</div>
+              <div class="week-detail-list">
+                <div class="week-wrap">
+                  <div class="week-count">7주차</div>
+                  <ul>
+                    <li>・ 머신러닝 개요</li>
+                    <li>・ K-NN 최근접 이웃법</li>
+                    <li>・ 의사결정나무</li>
+                  </ul>
+                </div>
+  
+                <div class="week-wrap">
+                  <div class="week-count">8주차</div>
+                  <ul>
+                    <li>・ 앙상블 랜덤포레스트</li>
+                    <li>・ K-means 군집 분석</li>
+                    <li>・ 연관규칙 분석</li>
+                    <li>・ 신경망 분석</li>
+                  </ul>
+                </div>
+  
+                <div class="week-wrap">
+                  <div class="week-count">9주차</div>
+                  <ul>
+                    <li>・ 분석목표 설정</li>
+                    <li>・ 데이터 분할</li>
+                    <li>・ 클래스 불균형</li>
+                    <li>・ 하이퍼 파라미터 탐색</li>
+                    <li>・ 모델 성능평가</li>
+                  </ul>
+                </div>
+  
+              </div>
+            </div>
+
+            <div class="curri-detail">
+              <div class="curri-title">실전 프로젝트</div>
+              <div class="week-detail-list">
+                <div class="week-wrap">
+                  <div class="week-count">10주차</div>
+                  <ul>
+                    <li>・ 1차 프로젝트 강의</li>
+                    <li>・ 1차 프로젝트 수행</li>
+                  </ul>
+                </div>
+  
+                <div class="week-wrap">
+                  <div class="week-count">11주차</div>
+                  <ul>
+                    <li>・ 2차 프로젝트 강의</li>
+                    <li>・ 2차 프로젝트 수행</li>
+                  </ul>
+                </div>
+  
+                <div class="week-wrap">
+                  <div class="week-count">12주차</div>
+                  <ul>
+                    <li>・ 3차 프로젝트 강의</li>
+                    <li>・ 3차 프로젝트 수행</li>
+                  </ul>
+                </div>
+  
+              </div>
+            </div>
+
+        </div>
+
+      </div>
+
     </div>
   </section>
 
+  <!-- section 7 -->
+  <section class="section-7">
+    <div class="inner">
+      <h3 class="title">실무에서 100% 써먹는 실전 프로젝트!</h3>
+
+      <div class="project-img"></div>
+
+      <div class="projects">
+        <div class="project-1">
+          <div class="left">
+            <div class="left-wrap">
+              <div class="project-num">• Project 01 •</div>
+              <div class="project-needs">머신러닝 모델로<br />주가를 예측하고싶은 당신을 위한</div>
+              <div class="project-name">S&P 500 지수 예측 프로젝트</div>
+            </div>
+          </div>
+          <div class="right">
+            <div class="right-wrap">
+              <ul class="project-desc">
+                <li>🔹 S&P 500 지수 데이터로 앞으로의 수익 예측</li>
+                <li>🔹 이진 분류 모델 사용</li>
+                <li>🔹 상승 or 하락을 맞추는 정확도로 성능 평가</li>
+              </ul>
+              <div>
+                <span>이 프로젝트를 통해</span>
+                <span class="highlight">무엇이든 특정 기준으로 분류하는 방법을 배웁니다.</span>
+              </div>
+              <ul class="use-case">
+                <li>#매출분석</li>
+                <li>#고객관리</li>
+                <li>#일기예보</li>
+                <li>#제약회사</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="project-2">
+          <div class="left">
+            <div class="left-wrap">
+              <div class="project-num">• Project 02 •</div>
+              <div class="project-needs">데이터를 세분화하여<br />특징을 파악하고싶은 당신을 위한</div>
+              <div class="project-name">미국 대학 군집분석 프로젝트</div>
+            </div>
+          </div>
+          <div class="right">
+            <div class="right-wrap">
+              <ul class="project-desc">
+                <li>🔹 데이터 전처리 및 탐색적 데이터 분석 </li>
+                <li>🔹 군집 분석 평가를 위한 성능지표 고안 및 모델 선택</li>
+              </ul>
+              <div>
+                <span>이 프로젝트를 통해</span>
+                <span class="highlight">공통점과 규칙을 찾는 방법을 배웁니다.</span>
+              </div>
+              <ul class="use-case">
+                <li>#의료</li>
+                <li>#마케팅</li>
+                <li>#역학조사</li>
+                <li>#온라인쇼핑몰</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="project-3">
+          <div class="left">
+            <div class="left-wrap">
+              <div class="project-num">• Project 03 •</div>
+              <div class="project-needs">떠나가는 고객을 미리 알고<br />붙잡고싶은 당신을 위한</div>
+              <div class="project-name">통신사 가입자 이탈<br />분석 프로젝트</div>
+            </div>
+          </div>
+          <div class="right">
+            <div class="right-wrap">
+              <ul class="project-desc">
+                <li>🔹 데이터 변환 및 전처리 함수 제작</li>
+                <li>🔹 로지스틱 회귀를 이용하여 예측 모델 훈련 및 CV 성능 측정</li>
+                <li>🔹 트리모델, KNN, 앙상블, NN 등 다양한 알고리즘 활용</li>
+              </ul>
+              <div>
+                <span>이 프로젝트를 통해</span>
+                <span class="highlight">다양한 머신러닝 알고리즘 활용 방법을 배웁니다.</span>
+              </div>
+              <ul class="use-case">
+                <li>#기획전략</li>
+                <li>#부동산</li>
+                <li>#HR</li>
+                <li>#인사</li>
+                <li>#제조업</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 8 -->
+  <section class="section-8">
+
+    <div class="inner">
+      <h3 class="title">AI 스페셜리스트, 현직 교수님의 명강의!</h3>
+        <p class="desc">개발자나 강사가 아닌, 대한민국 상위 0.1%의 우수한 교수진<br />카이스트 출신 현직 고려대 교수님께 배우는 데이터 사이언스 강의!</p>
+        <figure>
+          <img src="/images/KDC Landing_professor_Mobile.png" alt="석준희 교수">
+          <figcaption>
+            <div class="instructor">
+              석준희<span>교수</span>
+            </div>
+            <ul>
+              <li>• KAIST 전기전자공학부 졸업 (학사)</li>
+              <li>• 미국 Stanford 대학 졸업 (박사)</li>
+              <li>• 미국 Stanford 대학 통계학과 박사후연구원</li>
+              <li>• 미국 Northwestern 대학 의생명정보학 조교수</li>
+              <li>• 고려대학교 전기전자공학부 부교수</li>
+              <li>• 미래에셋 인공지능금융연구소 소장</li>
+            </ul>
+          </figcaption>
+        </figure>
+    </div>
+
+  </section>
+  <!-- section 9 -->
+  <section class="section-9">
+    <div class="inner">
+
+      <p class="desc">전문가를 위한 강의가 아닌</p>
+      <h3 class="title">왕초보를 위한 탄탄한 강의!</h3>
+
+      <div class="img"></div>
+
+    </div>
+  </section>
+
+  <!-- section 10 -->
+  <section class="section-10">
+    
+    <div class="inner">
+      <h3 class="title">왕초보 머신러닝 과정,<br />👇이런 분들께 추천합니다!👇</h3>
+
+      <div class="recommend-case">
+        <div class="case-1">
+          <div class="character-wrap">
+            <div class="character"></div>
+          </div>
+          <div class="speech">
+            <div class="arrow"></div>
+            <div>Python으로 머신러닝 모델을<br />스스로 개발하고 싶어요.</div>
+          </div>
+        </div>
+        <div class="case-2">
+          <div class="character"></div>
+          <div class="speech">
+            <div class="arrow"></div>
+            <div>빅데이터와 인공지능 기술에 대해 이해하고<br />실무에 바로 적용하고 싶어요.</div>
+          </div>
+        </div>
+        <div class="case-3">
+          <div class="character"></div>
+          <div class="speech">
+            <div class="arrow"></div>
+            <div>나의 지원서를 빛내줄 머신러닝 프로젝트를<br />포트폴리오로 가져가고 싶어요.</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- section 11 -->
+  <section class="section-11">
+    <div class="inner">
+
+        <p class="sub-title">앞선 수강한 수강생들이 말하는</p>
+        <h3 class="title">왕초보 머신러닝 과정 수강후기</h3>
+
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="user">
+                <div class="user-img-1"></div>
+                <div class="user-info">
+                  <div class="name">백엔드 개발자, 성OO님</div>
+                  <div class="course">AIM Pro 코스 1기 수강생</div>
+                </div>
+              </div>
+              <div class="heading">남들보다 한발 앞서<br />가치를 올리기 위한 가장 쉬운 방법</div>
+              <div class="content">“백엔드 개발만 할 때는 연봉 1억은 꿈도 꾸지 못했는데 머신러닝과 데이터 분석을 배우니 생각보다 쉽게 도달할 수 있었어요. 무엇이든 자원의 희소성으로 가치가 오릅니다. 머신러닝과 빅데이터 분석은 아직까진 희소성있는 기술입니다. 기업에선 서로 채용하려고 전쟁 중이지만 대학에선 아직 제대로 가르치지 않는 시점에서 코딩엑스를 수강한다면 남들보다 한발 앞설 수 있습니다.”</div>
+            </div>
+            <div class="swiper-slide">
+              <div class="user">
+                <div class="user-img-2"></div>
+                <div class="user-info">
+                  <div class="name">제약회사 영업지원팀, 최O준님</div>
+                  <div class="course">내손으로 머신러닝 & 실전 데이터 분석 - Kaggle 통신사 가입자 데이터 수강생</div>
+                </div>
+              </div>
+              <div class="heading">과거의 데이터들에서<br />앞으로의 기회를 찾는 일!</div>
+              <div class="content">“불과 몇 년 전에는 영업을 관리하는 사무 업무에서 현재는 영업을 지원하는 역할로 바뀌고 있습니다. 여기서 가장 많이 사용하는 기술이 데이터 분석이고 실제로 제약회사들은 이미 데이터 분석 능력과 커뮤니케이션 능력은 필수라고 여기고 있습니다. 기업에서는 성과를 위해 기업교육 프로그램으로 데이터 분석을 권장하고 있는 추세입니다. 만약 데이터 분석을 배운 뒤 입사한다면 사내에서 입지를 다지는 데 더 유리할 것이고, 제가 신입이라면 꼭 배워서 어필할 것입니다.”</div>
+            </div>
+            <div class="swiper-slide">
+              <div class="user">
+                <div class="user-img-3"></div>
+                <div class="user-info">
+                  <div class="name">스타트업 재직자, 황O연님</div>
+                  <div class="course">AI 신년패스 수강생</div>
+                </div>
+              </div>
+              <div class="heading">누구나 어제보다 나은<br />내일을 위해 배워야합니다.</div>
+              <div class="content">“주식과 코인의 공통점은 매도와 매수, 거래량 등 데이터들로 이루어진 보조지표들과 패턴, 데이터가 있다는 점입니다. 차트를 기술적으로 분석해도 사실 운이 많이 따라야 합니다. 코딩엑스에서 배운 머신러닝으로 17-18년도 상승장 데이터를 분석하고 적용하니 수익율을 더 올릴 수 있고 물려도 불안하지 않아 대부분 익절하여 올해는 1월부터 230%의 수익을 올렸습니다. 가상화폐를 미래의 화폐라 믿고 투자하는 분들은 가까운 미래의 기술, 머신러닝을 배워보시길 강력 추천드립니다.</div>
+            </div>
+          </div>
+        </div>
+
+      <div class="swiper-button-next">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M13.5971 12L8.29042 17.29C7.89994 17.68 7.89994 18.31 8.29042 18.7C8.68091 19.09 9.3117 19.09 9.70219 18.7L15.7097 12.72C15.9099 12.52 16.0001 12.26 16.0001 12C16.0001 11.74 15.9099 11.48 15.7097 11.28L9.7122 5.29C9.32171 4.9 8.68091 4.9 8.29042 5.29C7.89994 5.68 7.89994 6.32 8.29042 6.71L13.5971 12Z" fill="#fff"/>
+          </svg>          
+      </div>
+      <div class="swiper-button-prev">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M10.403 11.995L15.7096 6.70311C16.1001 6.31297 16.1001 5.68274 15.7096 5.2926C15.3191 4.90247 14.6884 4.90247 14.2979 5.2926L8.29036 11.2747C8.09011 11.4748 8 11.7349 8 11.995C8 12.2551 8.09011 12.5152 8.29036 12.7153L14.2879 18.7074C14.6783 19.0975 15.3091 19.0975 15.6996 18.7074C16.0901 18.3173 16.0901 17.687 15.6996 17.2969L10.403 11.995Z" fill="#fff"/>
+          </svg>          
+      </div>
+    </div>
+  </section>
+
+
+  <!-- section 12 -->
+  <section class="section-12">
+    <div class="inner">
+
+      <h2 class="title">FAQ</h2>
+
+      <section class="faq-section">
+        <h3>💳 내일배움카드 및 신청 관련</h3>
+  
+        <ul class="accordion" id="faq-accordion">
+          <li class="accordion-item">
+            <button type="button" class="acc-btn">
+              <h4>저도 국비지원 대상인가요?</h4>
+            </button>
+
+            <div class="accordion-panel">
+              <p>내일배움카드 발급 대상자는 누구나 과정을 무료로 들으실 수 있습니다.
+              
+                다만 아래 명단에 속하는 분들은 발급 대상에서 제외됩니다.
+                - 공무원, 사립학교 교직원
+                - 만 75세 이상인 사람
+                - 국민기초생활보장법 제9조에 따른 생계급여 수급자
+                - 재학생(단, 졸업까지 남은 수업연한이 2년 이내인 대학생(대학교 3학년) 및 최종 학년에 재학 중인 고등학생은 지원 가능)
+                - 대규모 기업에 고용된 만 45세 미만인 사람으로서 월 평균 소득이 300만원 이상인 사람
+                - 특수형태근로종사자로서 월 평균 소득이 300만원 이상인 사람
+                - 자영업자로서 사업기간이 1년 미만이거나 최근 1년 간 매출과세표준액이 1억5천만원 이상
+                (부동산임대사업자의 경우 부동산임대공급가액이 연 4천8백만원 이상)인 사람
+                - 기타 직업훈련의 필요성이 인정되지 않는 사람
+              </p>
+            </div>
+          </li>
+          
+          <li class="accordion-item">
+            <button type="button" class="acc-btn">
+              <h4>내일배움카드는 어떻게 발급받나요?</h4>
+            </button>
+
+            <div class="accordion-panel">
+              <p><a href="https://www.youtube.com/watch?v=tiGaocDONAA" target="_blank">[PC] 발급방법 영상보기</a>
+                <a href="https://www.youtube.com/watch?v=VOWfeV07_p4" target="_blank">[모바일] 발급방법 영상보기</a>
+              </p>
+            </div>
+          </li>
+  
+          <li class="accordion-item">
+            <button type="button" class="acc-btn">
+              <h4>내일배움카드가 있는데 어떻게 신청하면 되나요?</h4>
+            </button>
+
+            <div class="accordion-panel">
+              <p><a href="https://www.youtube.com/watch?v=vObrRAnaYsM" target="_blank">신청방법 영상보기</a></p>
+            </div>
+          </li>
+  
+        </ul>
+      </section>
+  
+      <section class="faq-section">
+        <h3>🧑🏻‍💻 학습 관련</h3>
+  
+        <ul class="accordion" id="faq-accordion">
+          <li class="accordion-item">
+            <button type="button" class="acc-btn">
+              <h4>학습기간이 끝나도 수강한 강의들을 다시 볼 수 있나요?</h4>
+            </button>
+
+            <div class="accordion-panel">
+              <p>과정 수료 시 3개월 복습 기간이 추가로 제공됩니다.</p>
+            </div>
+          </li>
+  
+          <li class="accordion-item">
+            <button type="button" class="acc-btn">
+              <h4>하루에 몇 시간정도 공부해야 하나요?</h4>
+            </button>
+
+            <div class="accordion-panel">
+              <p>영상 강의 기준으로 일주일에 1시간 30분이면 충분합니다. 학기중이거나, 출근을 하고있어도 무리없이 가능하죠! :)
+                실습과 프로젝트 등 추가적인 시간은 개인에 따라 다르지만 일주일에 1시간 내외로 소요됩니다.
+              </p>
+            </div>
+          </li>
+  
+          <li class="accordion-item">
+            <button type="button" class="acc-btn">
+              <h4>꼭 정해진 시간에 맞춰 수강해야 하나요?</h4>
+            </button>
+
+            <div class="accordion-panel">
+              <p>제공되는 커리큘럼은 12주 과정입니다.
+                하지만 집중해서 빠르게 성장하고 싶다면 얼마든지 강의를 앞당겨서 들어도 좋습니다
+              </p>
+            </div>
+          </li>
+  
+          <li class="accordion-item">
+
+            <button type="button" class="acc-btn">
+              <h4>코딩, IT에 대해 하나도 모르는데 따라갈 수 있을까요?</h4>
+            </button>
+
+            <div class="accordion-panel">
+              <p>비전공자와 초보들을 위해 코딩엑스AI의 교수진과 연구원이 새롭게 만든 과정입니다!
+                누구도 좌절하지 않고 배울 수 있습니다.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </section>
+  
+      <section class="faq-section">
+        <h3>💯 수료 관련</h3>
+  
+        <ul class="accordion" id="faq-accordion">
+          <li class="accordion-item">
+
+            <button type="button" class="acc-btn">
+              <h4>수료시 자부담금 환급은 어떻게 받나요?</h4>
+            </button>
+
+            <div class="accordion-panel">
+              <p>자부담금 환급은 과정 완주 시(진도율 80% 이상) HRD-Net을 통해 훈련생이 직접 신청하며,
+                HRD-Net을 통해 환급내역 확인 가능합니다.
+                [마이서비스 ➞ 마이카드 ➞ 국민내일배움카드 ➞ 자비부담금 환급신청]</p>
+            </div>
+          </li>
+  
+          <li class="accordion-item">
+
+            <button type="button" class="acc-btn">
+              <h4>수료증은 어떻게 발급 받나요?</h4>
+            </button>
+
+            <div class="accordion-panel">
+              <p>과정 완주 시 코딩엑스 사이트에서 다운로드 하실 수 있습니다. <a href="#">(바로가기)</a></p>
+            </div>
+          </li>
+  
+          <li class="accordion-item">
+
+            <button type="button" class="acc-btn">
+              <h4>온라인 워크샵 입장권은 어떻게 받나요?</h4>
+            </button>
+
+            <div class="accordion-panel">
+              <p>과정 완주 이후 워크샵 이전에 프로모션 메일을 발송해 드립니다.</p>
+            </div>
+          </li>
+  
+        </ul>
+      </section>
+    </div>
+      
+      </div>
+
+    </div>
+  </section>
+  
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
   <script src="./javascript/apply.js"></script>
+  <script type="module" src="/javascript/swiper.js"></script>
   <script type="module" src="./javascript/curriculum.js"></script>
+  <script type="module" src="./javascript/accordion.js"></script>
 </body>
 </html>
 
