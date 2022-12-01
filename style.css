@@ -1,12 +1,30 @@
+@font-face {
+  font-family: 'NanumSquareNeo-Variable';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+  font-weight: 400 900;
+  font-style: normal;
+}
+
 
 body {
+  font-family:  'Pretendard Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   line-height: 1.2;
   letter-spacing: -.3px;
   -webkit-font-smoothing: antialiased;
   --color-white: #fff;
   --color-black: #000;
+  --color-gray: #DEDEDE;
   --color-yellow: #FFCE00;
   --color-blue: #3749C5;
+  --color-text-01: #0A0A0A;
+  --color-text-02: #1C1C1C;
+  --color-text-03: #3F3F3F;
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+  --font-extrabold: 800;
+  --font-black: 900;
 }
 
 
@@ -30,18 +48,23 @@ a {
 .title {
   text-align: center;
   font-size: 40px;
+  font-family: 'NanumSquareNeo-Variable';
+  font-weight: var(--font-black);
 }
 
 .desc {
   text-align: center;
   font-size: 24px;
+  font-family: 'NanumSquareNeo-Variable';
+  font-weight: var(--font-bold);
+  color: var(--color-gray);
 }
 
 /* header */
 
 header {
   height: 72px;
-  background-color: #eee;
+  background-color: var(--color-white);
   position: sticky;
   top: 0;
   z-index: 10;
@@ -73,17 +96,18 @@ header .menu li{
 header .apply-btn a{
   width: 120px;
   background-color: var(--color-yellow);
+  font-weight: var(--font-semibold);
   border-radius: 100px;
   position: absolute;
   top: 50%;
   right: 24px;
   transform: translate(0, -50%);
   display: inline-block;
-  width: 116px;
-  height: 32px;
+  width: 108px;
+  height: 40px;
   text-align: center;
   vertical-align: middle;
-  line-height: 32px;
+  line-height: 40px;
 }
 
 header .menu-btn,
@@ -118,11 +142,15 @@ header .close-btn {
   text-align: center;
   font-size: 20px;
   margin-top: 48px;
+  font-family: 'NanumSquareNeo-Variable';
+  font-weight: var(--font-bold);
 }
 
 .section-1 .title {
   font-size: 84px;
   margin-top: 32px;
+  font-family: 'NanumSquareNeo-Variable';
+  font-weight: var(--font-black);
 }
 
 .section-1 .hashtag {
@@ -137,6 +165,7 @@ header .close-btn {
   border-radius: 100px;
   padding: 12px 16px;
   text-align: center;
+  font-family: 'NanumSquareNeo-Variable';
 }
 
 .section-1 .btn-wrap {
@@ -149,7 +178,8 @@ header .close-btn {
   padding: 12px 24px;
   background-color: var(--color-yellow);
   border-radius: 100px;
-  color: #000;
+  color: var(--color-black);
+  font-weight: var(--font-semibold);
   text-align: center;
 }
 
@@ -167,10 +197,11 @@ header .close-btn {
 .section-2 {
   background-color: #3c3c43;
   width: 100%;
+  font-family: 'NanumSquareNeo-Variable';
 }
 
 .section-2 .time {
-  width: 800px;
+  width: 900px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -182,6 +213,7 @@ header .close-btn {
 .section-2 .time .generation {
   font-size: 30px;
   color: var(--color-white);
+  font-weight: var(--font-semibold);
 }
 
 .section-2 .time ul {
@@ -209,9 +241,9 @@ header .close-btn {
 
 .section-2 .time ul li{
   font-size: 30px;
-  font-weight: var(--font-bold);
+  font-weight: var(--font-semibold);
   color: var(--color-white);
-  font-family: "NanumSquareNeo";
+  font-family: "NanumSquareNeo-Variable";
 }
 
 /* section 3 */
@@ -258,9 +290,10 @@ header .close-btn {
 
 .section-3 .ex-contents .content-desc {
   font-size: 18px;
-  color: var(--color-black);
+  color: var(--color-text-01);
   word-break: keep-all;
   margin-bottom: 32px;
+  font-weight: var(--font-medium);
 }
 
 .section-3 .ex-contents .content-job {
@@ -336,6 +369,10 @@ header .close-btn {
   margin-bottom: 40px;
 }
 
+.section-4 .desc {
+  color: var(--color-text-01);
+}
+
 .section-4 .vod {
   width: 588px;
   height: 320px;
@@ -356,6 +393,8 @@ header .close-btn {
   border-radius: 16px;
   font-size: 18px;
   width: 588px;
+  color: var(--color-text-01);
+  font-weight: var(--font-semibold);
 }
 
 .section-4 .recruitment ul {
@@ -381,31 +420,34 @@ header .close-btn {
 
 .section-5 {
   position: relative;
+  background-color: #F5F7F9;
 }
 
 .section-5 .left-img {
   background: url('./images/kdcFigureLeft_Web.png') no-repeat;
   background-size: contain;
   position: absolute;
-  top: 0;
+  top: 50%;
   left: 0;
+  transform: translate(0, -50%);
   width: 320px;
-  height: 488px;
+  height: 95%;
 }
 
 .section-5 .right-img {
   background: url('./images/kdcFigureRight_Web.png') no-repeat;
   background-size: contain;
   position: absolute;
-  top: 0;
+  top: 50%;
   right: 0;
+  transform: translate(0, -50%);
   width: 320px;
-  height: 488px;
+  height: 95%;
 }
 
 .section-5 .inner {
   padding: 80px 24px;
-  height: 488px;
+  /* height: 488px; */
   text-align: center;
 }
 
@@ -416,11 +458,13 @@ header .close-btn {
 .section-5 .desc {
   word-break: keep-all;
   margin-bottom: 24px;
+  color: var(--color-text-01);
 }
 
 .section-5 .caption {
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
+  color: var(--color-text-03);
 }
 
 .section-5 .more-btn {
@@ -436,6 +480,7 @@ header .close-btn {
 
 .section-6 .desc {
   margin-top: 48px;
+  color: var(--color-text-01);
 }
 
 .section-6 .curriculum {
@@ -649,6 +694,7 @@ header .close-btn {
 
 .section-7 .projects .right-wrap .use-case {
   display: flex;
+  flex-wrap: wrap;
   gap: 12px;
 }
 
@@ -737,6 +783,10 @@ header .close-btn {
   margin-top: 16px;
 }
 
+.section-9 .desc {
+  color: var(--color-text-02)
+}
+
 .section-9 .img {
   background: url('./images/kdcLandingComparing_Web.png') no-repeat;
   background-size: contain;
@@ -807,10 +857,10 @@ header .close-btn {
   justify-content: center;
   align-items: center;
   color: var(--color-white);
-  font-size: var(--font-size-desc);
+  font-size: 20px;
   font-weight: var(--font-medium);
-  width: 500px;
-  height: 120px;
+  width: 480px;
+  height: 100px;
   border-radius: 81px;
 }
 
@@ -958,7 +1008,7 @@ header .close-btn {
 
 .section-11 .swiper-slide .heading {
   font-size: 28px;
-  font-weight: var(--font-heavy);
+  font-weight: var(--font-black);
   color: #394DD1;
   text-align: left;
 }
@@ -983,6 +1033,7 @@ header .close-btn {
 .section-12 .faq-section > h3 {
   font-size: 24px;
   margin-top: 32px;
+  font-weight: var(--font-extrabold);
 }
 
 .section-12 .faq-section ul li:first-child {
@@ -1255,18 +1306,17 @@ header .close-btn {
     background: url('./images/kdcFigureLeft_Mobile.png') no-repeat;
     background-size: contain;
     width: 80px;
-    height: 216px;
+    height: 95%;
   }
 
   .section-5 .right-img {
     background: url('./images/kdcFigureRight_Mobile.png') no-repeat;
     background-size: contain;
     width: 80px;
-    height: 216px;
+    height: 95%;
   }
 
   .section-5 .inner {
-    height: 216px;
     padding: 16px 24px;
   }
 
@@ -1280,6 +1330,10 @@ header .close-btn {
     width: 80%;
   }
 
+  .section-5 .caption {
+    margin-top: 16px;
+  }
+
   /* section 6 */
 
   .section-6 .inner {
@@ -1289,6 +1343,10 @@ header .close-btn {
   .section-6 .desc {
     margin: 16px auto 0;
     word-break: keep-all;
+  }
+
+  .section-6 .curriculum {
+    margin-top: 40px;
   }
 
   .section-6 .curriculum .curri-btn-list {
@@ -1641,7 +1699,7 @@ header .close-btn {
 
   .section-11 .swiper-slide .heading {
     font-size: 18px;
-    font-weight: var(--font-heavy);
+    font-weight: var(--font-black);
     color: #394DD1;
     text-align: left;
   }
