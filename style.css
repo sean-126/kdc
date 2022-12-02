@@ -13,7 +13,7 @@ body {
   -webkit-font-smoothing: antialiased;
   --color-white: #fff;
   --color-black: #000;
-  --color-gray: #DEDEDE;
+  --color-gray: #EBEBEB;
   --color-yellow: #FFCE00;
   --color-blue: #3749C5;
   --color-text-01: #0A0A0A;
@@ -62,7 +62,8 @@ a {
 
 .desc-m,
 .sep-m,
-.title-m {
+.title-m,
+.speech-m {
   display: none;
 }
 
@@ -1660,6 +1661,7 @@ header .close-btn {
 
   .section-10 .case-2 .speech-m,
   .section-10 .case-3 .speech-m {
+    display: block;
   }
 
   /* section 11 */
