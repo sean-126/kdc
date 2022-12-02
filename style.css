@@ -91,6 +91,9 @@ header .menu {
 
 header .menu li{
   float: left;
+  margin-left: 24px;
+  color: var(--color-text-03);
+  font-weight: var(--font-medium);
 }
 
 header .apply-btn a{
@@ -152,6 +155,7 @@ header .close-btn {
   font-family: 'NanumSquareNeo-Variable';
   font-weight: var(--font-black);
   word-break: keep-all;
+  letter-spacing: -2.5px;
 }
 
 .section-1 .hashtag {
@@ -176,7 +180,8 @@ header .close-btn {
 }
 
 .section-1 .apply-btn{
-  padding: 12px 24px;
+  font-size: 18px;
+  padding: 12px 32px;
   background-color: var(--color-yellow);
   border-radius: 100px;
   color: var(--color-black);
@@ -259,7 +264,12 @@ header .close-btn {
 }
 
 .section-3 .desc {
-  margin-top: 48px;
+  margin: 48px auto 0;
+  word-break: keep-all;
+}
+
+.section-3 .desc-m {
+  display: none;
 }
 
 .section-3 .area-1 .img {
@@ -348,6 +358,7 @@ header .close-btn {
 .section-4 .badge {
   text-align: center;
   font-size: 32px;
+  font-weight: var(--font-semibold);
   margin-bottom: 24px;
   position: relative;
   z-index: 1;
@@ -457,9 +468,11 @@ header .close-btn {
 }
 
 .section-5 .desc {
+  text-align: center;
   word-break: keep-all;
-  margin-bottom: 24px;
+  margin: 0 auto 24px;
   color: var(--color-text-01);
+  width: 620px;
 }
 
 .section-5 .caption {
@@ -480,7 +493,9 @@ header .close-btn {
 }
 
 .section-6 .desc {
-  margin-top: 48px;
+  margin: 48px auto 0;
+  width: 580px;
+  word-break: keep-all;
   color: var(--color-text-01);
 }
 
@@ -652,7 +667,7 @@ header .close-btn {
 
 .section-7 .projects .left .project-name {
   color: var(--color-white);
-  font-size: var(--font-size-desc);
+  font-size: 24px;
   font-weight: var(--font-bold);
   text-align: center;
 }
@@ -895,6 +910,7 @@ header .close-btn {
 .section-11 .sub-title {
   text-align: center;
   font-size: 24px;
+  font-weight: var(--font-medium);
 }
 
 .section-11 .title {

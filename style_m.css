@@ -1,0 +1,636 @@
+
+@media screen and (max-width: 800px) {
+    .inner {
+      width: 100%;
+    }
+  
+    .title {
+      font-size: 20px;
+    }
+  
+    .desc {
+      font-size: 16px;
+    }
+    
+    header .logo {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  
+    header .menu {
+      display: none;
+    }
+  
+    header .apply-btn {
+      display: none;
+    }
+  
+    header .menu-btn {
+      display: block;
+      position: absolute;
+      top: 50%;
+      transform: translate(0, -50%);
+      cursor: pointer;
+    }
+  
+    /* section 1 */
+  
+    .section-1 .inner {
+      padding-top: 40px;
+    }
+    
+    .section-1 .kdc-logo {
+      width: 186px;
+      height: 18px;
+    }
+    
+    .section-1 .sub-title {
+      font-size: 14px;
+      margin-top: 24px;
+    }
+  
+    .section-1 .title {
+      font-size: 48px;
+    }
+  
+    .section-1 .hashtag {
+      display: flex;
+      flex-wrap: wrap;
+      -webkit-box-pack: center;
+      gap: 16px;
+    }
+    
+    .section-1 .hashtag > h4 {
+      color: var(--color-white);
+      background-color: rgba(0, 0, 0, 0.2);
+      font-size: 14px;
+    }
+  
+    .section-1 .btn-wrap {
+      margin: 0;
+      position: absolute;
+      bottom: 40px;
+      left: 50%;
+      transform: translate(-50%, 0);
+    }
+  
+    .section-1 .hero-img {
+      background: url('./images/kdcLandingHeroImg_mobile.png.png') no-repeat;
+      background-position: center;
+      background-size: contain;
+      width: 100%;
+      height: calc(100vw/3*2);
+      margin: 40px auto;
+    }
+  
+    /* section 2 */
+    .section-2 {
+      display: none;
+    }
+  
+    /* section 3 */
+  
+    .section-3 .inner {
+      padding: 64px 24px;
+    }
+    
+    .section-3 .desc {
+      margin-top: 24px;
+      word-break: keep-all;
+      line-height: 1.25;
+    }
+  
+    .section-3 .area-1 .img {
+      background: url('./images/kdcLandingArticle_mobile.png') no-repeat;
+      background-position: center;
+      background-size: contain;
+      width: auto;
+      height: calc(100vw);
+      margin: 24px auto 64px;
+    }
+  
+    .section-3 .area-2 .ex-contents {
+      width: 80%;
+      flex-direction: column;
+      margin: 40px auto 0;
+    }
+    
+    .section-3 .ex-contents .content-wrap {
+      padding: 24px 24px;
+    }
+  
+    .section-3 .ex-contents .content-job {
+      font-size: 18px;
+    }
+    
+    .section-3 .ex-contents .content-desc {
+      line-height: 1.25;
+      font-size: 16px;
+      font-weight: var(--font-medium);
+    }
+    
+    .section-3 .ex-contents .content-img {
+      width: 100px;
+      height: 100px;
+    }
+  
+    /* section4 */
+  
+    .section-4 .inner {
+      padding: 64px 24px;
+    }
+  
+    .section-4 .badge {
+      font-size: 18px;
+      margin-bottom: 16px;
+    }
+  
+    .section-4 .badge::after {
+      width: 40%;
+      height: 12px;
+    }
+  
+    .section-4 .title {
+      margin-bottom: 24px;
+    }
+  
+    .section-4 .desc {
+      margin: 0 auto;
+      width: 80%;
+      word-break: keep-all;
+    }
+  
+    .section-4 .vod {
+      width: 90%;
+      height: calc(88vw/2);
+      border-radius: 10px;
+      box-shadow: 0px 3px 6px #00000029;
+      margin: 40px auto;
+    }
+  
+    .section-4 .vod iframe {
+      border-radius: 10px;
+      width: 100%;
+      height: 100%;
+    }
+  
+    .section-4 .recruitment {
+      font-size: 16px;
+      width: auto;
+    }
+    
+    .section-4 .recruitment ul {
+      padding: 16px;
+    }
+    
+    .section-4 .recruitment > ul > li {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding-bottom: 8px;
+    }
+    
+    .section-4 .recruitment > ul > li:last-child {
+      padding-bottom: 0;
+    }
+    
+    .section-4 .recruitment > ul > li > .course-period {
+      display: none;
+    }
+  
+    /* section 5 */
+  
+     .section-5 .left-img {
+      background: url('./images/kdcFigureLeft_Mobile.png') no-repeat;
+      background-size: contain;
+      width: 80px;
+      height: 95%;
+    }
+  
+    .section-5 .right-img {
+      background: url('./images/kdcFigureRight_Mobile.png') no-repeat;
+      background-size: contain;
+      width: 80px;
+      height: 95%;
+    }
+  
+    .section-5 .inner {
+      padding: 16px 24px;
+    }
+  
+    .section-5 .title {
+      margin: 0;
+      margin-top: 24px;
+    }
+  
+    .section-5 .desc {
+      margin: 16px auto 0;
+      width: 80%;
+    }
+  
+    .section-5 .caption {
+      margin-top: 16px;
+      font-size: 14px;
+    }
+  
+    /* section 6 */
+  
+    .section-6 .inner {
+      padding: 64px 24px;
+    }
+  
+    .section-6 .desc {
+      margin: 16px auto 0;
+      word-break: keep-all;
+    }
+  
+    .section-6 .curriculum {
+      margin-top: 40px;
+    }
+  
+    .section-6 .curriculum .curri-btn-list {
+      width: 100%;
+      gap: 12px;
+    }
+  
+    .section-6 .curriculum .curri-btn {
+      font-size: 14px;
+      height: 32px;
+    }
+  
+    .section-6 .curriculum .curri-btn.curri-btn.is-active {
+      font-size: 14px;
+      height: 32px;
+    }
+  
+    .section-6 .curriculum .curri-detail .curri-title {
+      font-size: 18px;
+    }
+  
+    .section-6 .curriculum .curri-detail .week-detail-list {
+      flex-direction: column;
+    } 
+  
+    /* section 7 */
+  
+    .section-7 .inner {
+      padding: 64px 24px;
+    }
+  
+    .section-7 .title {
+      width: 70%;
+      margin: 0 auto;
+      word-break: keep-all;
+    }
+  
+    .section-7 .project-img {
+      background: url('./images/kdcLandingProject_Mobile.png') no-repeat;
+      background-size: contain;
+      background-position: center;
+      height: 262px;
+      margin-top: 24px;
+    }
+  
+    .section-7 .projects {
+      margin-top: 24px;
+    }
+  
+    .section-7 .projects .project-1,
+    .section-7 .projects .project-2,
+    .section-7 .projects .project-3 {
+      display: flex;
+      flex-direction: column;
+      width: 90%;
+    }
+  
+    .section-7 .projects .left {
+      border-radius: 10px 10px 0 0;
+      padding: 16px;
+      width: 100%;
+    }
+  
+    .section-7 .projects .left-wrap {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .section-7 .projects .left .project-num {
+      font-size: 14px;
+      font-weight: var(--font-medium);
+      margin-bottom: 12px;
+    }
+  
+    .section-7 .projects .left .project-needs {
+      font-size: 16px;
+      font-weight: var(--font-medium);
+      margin-bottom: 8px;
+    }
+  
+    .section-7 .projects .left .project-name {
+      font-size: 18px;
+    }
+  
+    .section-7 .projects .right {
+      border-radius: 0 0 10px 10px;
+      padding: 16px;
+      width: 100%;
+    }
+  
+    .section-7 .projects .right .project-desc {
+      font-size: 14px;
+      margin-bottom: 24px;
+    }
+  
+    .section-7 .projects .right-wrap>div {
+      align-items: center;
+      text-align: center;
+      font-size: 16px;
+      word-break: keep-all;
+    }
+  
+    .section-7 .projects .right-wrap .use-case li {
+      font-size: 12px;
+      padding: 6px 12px 4px 12px;
+    }
+  
+    /* section 8 */
+  
+    .section-8 .inner {
+      padding: 64px 24px;
+    }
+  
+    .section-8 .title {
+      margin-bottom: 24px;
+      word-break: keep-all;
+    }
+  
+    .section-8 .desc {
+      color: var(--color-gray);
+      word-break: keep-all;
+    }
+  
+    .section-8 figure {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .section-8 figure img {
+      width: 80%;
+      margin-bottom: 24px;
+    }
+  
+    .section-8 figure .instructor {
+      font-size: 24px;
+      text-align: center;
+    }
+  
+    .section-8 figure .instructor span {
+      padding-left: 8px;
+      font-size: 20px;
+    }
+  
+    .section-8 figcaption ul li {
+      font-size: 16px;
+      font-weight: var(--font-medium);
+      color: var(--color-gray);
+      margin-bottom: 8px;
+    }
+  
+    /* section 9 */
+  
+    .section-9 .inner {
+      padding: 64px 24px;
+    }
+  
+    .section-9 .title {
+      margin-top: 8px;
+    }
+  
+    .section-9 .img {
+      background: url('./images/kdcLandingComparing_Mobile.png') no-repeat;
+      width: 100%;
+      background-size: contain;
+      background-position: center;
+      height: 800px;
+      margin-top: -72px;
+    }
+  
+    /* section 10 */
+  
+    .section-10 .inner {
+      padding: 64px 24px;
+    }
+  
+    .section-10 .recommend-case {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      margin: 24px auto 0;
+      width: 100%;
+    }
+  
+    .section-10 .recommend-case .case-1,
+    .section-10 .recommend-case .case-3 {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+  
+    .section-10 .recommend-case .case-2 {
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+      gap: 8px;
+    }
+  
+    .section-10 .recommend-case .character {
+      background-repeat: no-repeat;
+      background-position: top;
+      background-size: 100%;
+      width: 120px;
+      height: 100px;
+    }
+  
+    .section-10 .case-1 .character {
+      background-image: linear-gradient(180deg, rgba(1, 13, 48, 0) 60%, rgba(1, 13, 48, 1) 83%, rgba(1, 13, 48, 1) 100%), url('/images/kdcLandingCaseP1.png');
+      transform: scaleX(-1);
+    }
+  
+    .section-10 .case-2 .character {
+      background-image: linear-gradient(180deg, rgba(1, 13, 48, 0) 60%, rgba(1, 13, 48, 1) 83%, rgba(1, 13, 48, 1) 100%), url('/images/kdcLandingCaseP2.png');
+    }
+  
+    .section-10 .case-3 .character {
+      background-image: linear-gradient(180deg, rgba(1, 13, 48, 0) 60%, rgba(1, 13, 48, 1) 83%, rgba(1, 13, 48, 1) 100%), url('/images/kdcLandingCaseP3.png');
+    }
+  
+    .section-10 .recommend-case .speech {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: var(--color-white);
+      font-size: 16px;
+      font-weight: var(--font-medium);
+      width: 300px;
+      height: 56px;
+      border-radius: 81px;
+      word-break: keep-all;
+    }
+  
+    .section-10 .case-2 .speech {
+      color: var(--color-black);
+    }
+  
+    /* section 11 */
+  
+    .section-11 .inner {
+      padding: 64px 24px;
+      position: relative;
+    }
+  
+    .section-11 .sub-title {
+      font-size: 16px;
+    }
+  
+    .section-11 .title {
+      margin-top: 8px;
+    }
+  
+    .section-11 .swiper {
+      margin-top: 40px;
+      width: 100%;
+    }
+  
+  
+    .section-11 .swiper-slide {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 16px;
+      background-color: var(--color-white);
+      width: 288px;
+      height: 100%;
+      border: 1px solid #D8D8D8;
+      border-radius: 20px;
+      padding: 24px;
+      box-sizing: border-box;
+      /* box-shadow: 0px 10px 15px #00000029; */
+    }
+  
+    .section-11 .swiper-button-next,
+    .section-11 .swiper-button-prev {
+      position: absolute;
+      width: 56px;
+      height: 56px;
+      top: 58%;
+      background-color: #9A9A9A;
+      border-radius: 100%;
+      color: var(--color-white);
+    }
+  
+    .section-11 .swiper-button-next::after,
+    .section-11 .swiper-button-prev::after {
+      display: none;
+    }
+  
+    .section-11 .swiper-button-prev {
+      left: -80px;
+      display: none;
+    }
+  
+    .section-11 .swiper-button-next {
+      right: -80px;
+      display: none;
+    }
+  
+    .section-11 .swiper-button-prev > svg,
+    .section-11 .swiper-button-next > svg {
+      width: 32px;
+      height: 32px;
+    }
+  
+    .section-11 .user {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+    }
+  
+    .section-11 .user .user-img-1{
+      background-image: url('images/kdcLandingReview1_Web.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      width: 80px;
+      height: 80px;
+    }
+  
+    .section-11 .user .user-img-2{
+      background-image: url('images/kdcLandingReview2_Web.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 100%;
+      width: 80px;
+      height: 80px;
+    }
+  
+    .section-11 .user .user-img-3{
+      background-image: url('images/kdcLandingReview3_Web.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 100%;
+      width: 80px;
+      height: 80px;
+    }
+  
+    .section-11 .user .user-info{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .section-11 .user .user-info .name{
+      font-size: 16px;
+      font-weight: var(--font-extrabold);
+      color: var(--color-text-01);
+      margin-bottom: 8px;
+    }
+  
+    .section-11 .user .user-info .course{
+      font-size: 14px;
+      font-weight: var(--font-medium);
+      color: var(--color-text-03);
+      width: 240px;
+    }
+  
+    .section-11 .swiper-slide .heading {
+      font-size: 18px;
+      font-weight: var(--font-black);
+      color: #394DD1;
+      text-align: left;
+    }
+  
+    .section-11 .swiper-slide .content {
+      font-size: 16px;
+      font-weight: var(--font-medium);
+      color: var(--color-text-02);
+      word-break: keep-all;
+    }
+  
+    /* section 12 */
+    .section-12 .inner {
+      padding: 80px 24px
+    }
+  
+    .section-12 .faq-section > h3 {
+      font-size: 18px;
+    }
+  
+    .section-12 .accordion h4 {
+      font-size: 16px;
+    }
+  }
