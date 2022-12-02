@@ -69,26 +69,26 @@ a {
 
 /* header */
 
-header {
+.header {
   height: 72px;
-  background-color: var(--color-white);
+  /* background-color: var(--color-white); */
   position: sticky;
   top: 0;
   z-index: 10;
 }
 
-header .logo {
+.header .logo {
   height: 28px;
   position: absolute;
   top: 50%;
   transform: translate(0, -50%);
 }
 
-header .logo img {
+.header .logo img {
   height: 100%;
 }
 
-header .menu {
+.header .menu {
   position: absolute;
   display: inline-block;
   top: 50%;
@@ -96,14 +96,14 @@ header .menu {
   transform: translate(-50%, -50%);
 }
 
-header .menu li{
+.header .menu li{
   float: left;
   margin-left: 24px;
   color: var(--color-text-03);
   font-weight: var(--font-medium);
 }
 
-header .apply-btn a{
+.header .apply-btn a{
   width: 120px;
   background-color: var(--color-yellow);
   font-weight: var(--font-semibold);
@@ -120,8 +120,8 @@ header .apply-btn a{
   line-height: 40px;
 }
 
-header .menu-btn,
-header .close-btn {
+.header .menu-btn,
+.header .close-btn {
   display: none;
 }
 
@@ -184,6 +184,7 @@ header .close-btn {
   display: flex;
   justify-content: center;
   margin-top: 48px;
+  height: 48px;
 }
 
 .section-1 .apply-btn{
@@ -1284,6 +1285,7 @@ header .close-btn {
   }
 
   .section-1 .btn-wrap {
+    height: 48px;
     margin: 0;
     position: absolute;
     bottom: 40px;
