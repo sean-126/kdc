@@ -61,7 +61,8 @@ a {
 }
 
 .desc-m,
-.sep-m {
+.sep-m,
+.title-m {
   display: none;
 }
 
@@ -1183,7 +1184,15 @@ header .close-btn {
   }
 
   .section-1 .title {
+    display: none;
+  }
+  .section-1 .title-m {
+    display: block;
     font-size: 48px;
+    text-align: center;
+    font-family: 'NanumSquareNeo-Variable';
+    font-weight: var(--font-black);
+    margin-top: 32px;
   }
 
   .section-1 .hashtag {
