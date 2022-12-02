@@ -151,6 +151,7 @@ header .close-btn {
   margin-top: 32px;
   font-family: 'NanumSquareNeo-Variable';
   font-weight: var(--font-black);
+  word-break: keep-all;
 }
 
 .section-1 .hashtag {
@@ -1105,7 +1106,7 @@ header .close-btn {
   }
 
   .title {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .desc {
@@ -1146,15 +1147,13 @@ header .close-btn {
   }
   
   .section-1 .sub-title {
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 24px;
   }
 
   .section-1 .title {
     font-size: 48px;
   }
-
-  /* hashtag 처리방법 찾기 */
 
   .section-1 .hashtag {
     display: flex;
@@ -1182,8 +1181,8 @@ header .close-btn {
     background-position: center;
     background-size: contain;
     width: 100%;
-    height: calc(100vw/2);
-    margin: 40px auto 80px;
+    height: calc(100vw/3*2);
+    margin: 40px auto;
   }
 
   /* section 2 */
@@ -1229,6 +1228,7 @@ header .close-btn {
   .section-3 .ex-contents .content-desc {
     line-height: 1.25;
     font-size: 16px;
+    font-weight: var(--font-medium);
   }
   
   .section-3 .ex-contents .content-img {
@@ -1248,7 +1248,7 @@ header .close-btn {
   }
 
   .section-4 .badge::after {
-    width: 28%;
+    width: 40%;
     height: 12px;
   }
 
@@ -1282,7 +1282,7 @@ header .close-btn {
   }
   
   .section-4 .recruitment ul {
-    padding: 24px;
+    padding: 16px;
   }
   
   .section-4 .recruitment > ul > li {
@@ -1332,6 +1332,7 @@ header .close-btn {
 
   .section-5 .caption {
     margin-top: 16px;
+    font-size: 14px;
   }
 
   /* section 6 */
@@ -1351,17 +1352,17 @@ header .close-btn {
 
   .section-6 .curriculum .curri-btn-list {
     width: 100%;
-    gap: 16px;
+    gap: 12px;
   }
 
   .section-6 .curriculum .curri-btn {
-    font-size: 16px;
-    height: 40px;
+    font-size: 14px;
+    height: 32px;
   }
 
   .section-6 .curriculum .curri-btn.curri-btn.is-active {
-    font-size: 16px;
-    height: 40px;
+    font-size: 14px;
+    height: 32px;
   }
 
   .section-6 .curriculum .curri-detail .curri-title {
@@ -1378,6 +1379,12 @@ header .close-btn {
     padding: 64px 24px;
   }
 
+  .section-7 .title {
+    width: 70%;
+    margin: 0 auto;
+    word-break: keep-all;
+  }
+
   .section-7 .project-img {
     background: url('./images/kdcLandingProject_Mobile.png') no-repeat;
     background-size: contain;
@@ -1386,9 +1393,8 @@ header .close-btn {
     margin-top: 24px;
   }
 
-
   .section-7 .projects {
-    margin-top: 40px;
+    margin-top: 24px;
   }
 
   .section-7 .projects .project-1,
@@ -1401,7 +1407,7 @@ header .close-btn {
 
   .section-7 .projects .left {
     border-radius: 10px 10px 0 0;
-    padding: 24px;
+    padding: 16px;
     width: 100%;
   }
 
@@ -1414,11 +1420,13 @@ header .close-btn {
 
   .section-7 .projects .left .project-num {
     font-size: 14px;
+    font-weight: var(--font-medium);
     margin-bottom: 12px;
   }
 
   .section-7 .projects .left .project-needs {
     font-size: 16px;
+    font-weight: var(--font-medium);
     margin-bottom: 8px;
   }
 
@@ -1428,19 +1436,20 @@ header .close-btn {
 
   .section-7 .projects .right {
     border-radius: 0 0 10px 10px;
-    padding: 24px;
+    padding: 16px;
     width: 100%;
   }
 
   .section-7 .projects .right .project-desc {
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 24px;
   }
 
   .section-7 .projects .right-wrap>div {
     align-items: center;
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
+    word-break: keep-all;
   }
 
   .section-7 .projects .right-wrap .use-case li {
@@ -1456,10 +1465,12 @@ header .close-btn {
 
   .section-8 .title {
     margin-bottom: 24px;
+    word-break: keep-all;
   }
 
   .section-8 .desc {
-    color: var(--color-white);
+    color: var(--color-gray);
+    word-break: keep-all;
   }
 
   .section-8 figure {
@@ -1506,8 +1517,8 @@ header .close-btn {
     width: 100%;
     background-size: contain;
     background-position: center;
-    height: 1000px;
-    margin-top: -64px;
+    height: 800px;
+    margin-top: -72px;
   }
 
   /* section 10 */
@@ -1515,7 +1526,6 @@ header .close-btn {
   .section-10 .inner {
     padding: 64px 24px;
   }
-
 
   .section-10 .recommend-case {
     display: flex;
@@ -1570,6 +1580,7 @@ header .close-btn {
     width: 300px;
     height: 56px;
     border-radius: 81px;
+    word-break: keep-all;
   }
 
   .section-10 .case-2 .speech {
@@ -1607,7 +1618,7 @@ header .close-btn {
     height: 100%;
     border: 1px solid #D8D8D8;
     border-radius: 20px;
-    padding: 40px;
+    padding: 24px;
     box-sizing: border-box;
     /* box-shadow: 0px 10px 15px #00000029; */
   }
