@@ -1238,6 +1238,7 @@ header .close-btn {
     display: block;
     position: absolute;
     top: 50%;
+    right: 24px;
     transform: translate(0, -50%);
     cursor: pointer;
   }
