@@ -60,6 +60,11 @@ a {
   color: var(--color-gray);
 }
 
+.desc-m,
+.sep-m {
+  display: none;
+}
+
 /* header */
 
 header {
@@ -268,10 +273,6 @@ header .close-btn {
   word-break: keep-all;
 }
 
-.section-3 .desc-m {
-  display: none;
-}
-
 .section-3 .area-1 .img {
   background: url('./images/kdcLandingArticle_web.png') no-repeat;
   background-position: center;
@@ -362,6 +363,10 @@ header .close-btn {
   margin-bottom: 24px;
   position: relative;
   z-index: 1;
+}
+
+.section-4 .badge > span {
+  color: #E6002D;
 }
 
 .section-4 .badge::after {
@@ -1121,12 +1126,22 @@ header .close-btn {
     width: 100%;
   }
 
-  .title {
+  .title,
+  .title-m {
     font-size: 20px;
   }
 
   .desc {
+    display: none;
+  }
+
+  .desc-m {
+    display: block;
+    font-family: 'NanumSquareNeo-Variable';
     font-size: 16px;
+    font-weight: var(--font-bold);
+    color: var(--color-text-02);
+    text-align: center;
   }
   
   header .logo {
@@ -1212,10 +1227,11 @@ header .close-btn {
     padding: 64px 24px;
   }
   
-  .section-3 .desc {
+  .section-3 .desc-m {
     margin-top: 24px;
     word-break: keep-all;
     line-height: 1.25;
+    color: var(--color-gray);
   }
 
   .section-3 .area-1 .img {
@@ -1272,9 +1288,8 @@ header .close-btn {
     margin-bottom: 24px;
   }
 
-  .section-4 .desc {
+  .section-4 .desc-m {
     margin: 0 auto;
-    width: 80%;
     word-break: keep-all;
   }
 
@@ -1341,9 +1356,8 @@ header .close-btn {
     margin-top: 24px;
   }
 
-  .section-5 .desc {
+  .section-5 .desc-m {
     margin: 16px auto 0;
-    width: 80%;
   }
 
   .section-5 .caption {
@@ -1357,7 +1371,7 @@ header .close-btn {
     padding: 64px 24px;
   }
 
-  .section-6 .desc {
+  .section-6 .desc-m {
     margin: 16px auto 0;
     word-break: keep-all;
   }
@@ -1369,6 +1383,7 @@ header .close-btn {
   .section-6 .curriculum .curri-btn-list {
     width: 100%;
     gap: 12px;
+    margin-bottom: 32px;
   }
 
   .section-6 .curriculum .curri-btn {
@@ -1383,6 +1398,7 @@ header .close-btn {
 
   .section-6 .curriculum .curri-detail .curri-title {
     font-size: 18px;
+    margin-bottom: 24px;
   }
 
   .section-6 .curriculum .curri-detail .week-detail-list {
@@ -1461,11 +1477,22 @@ header .close-btn {
     margin-bottom: 24px;
   }
 
+  .section-7 .projects .right .sep-m {
+    display: block;
+    border: 1px solid #CECECE;
+    width: 80px;
+    margin: 0 auto 24px;
+  }
+
   .section-7 .projects .right-wrap>div {
     align-items: center;
     text-align: center;
     font-size: 16px;
     word-break: keep-all;
+  }
+
+  .section-7 .projects .right-wrap .use-case {
+    gap: 8px;
   }
 
   .section-7 .projects .right-wrap .use-case li {
@@ -1480,7 +1507,14 @@ header .close-btn {
   }
 
   .section-8 .title {
-    margin-bottom: 24px;
+    display: none;
+  }
+
+  .section-8 .title-m {
+    font-family: 'NanumSquareNeo-Variable';
+    font-weight: var(--font-black);
+    color: var(--color-white);
+    text-align: center;
     word-break: keep-all;
   }
 
@@ -1512,7 +1546,7 @@ header .close-btn {
   }
 
   .section-8 figcaption ul li {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: var(--font-medium);
     color: var(--color-gray);
     margin-bottom: 8px;
