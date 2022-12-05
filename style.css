@@ -71,7 +71,7 @@ a {
 
 .header {
   height: 72px;
-  /* background-color: var(--color-white); */
+  background-color: #101F41;
   position: sticky;
   top: 0;
   z-index: 10;
