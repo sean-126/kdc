@@ -169,7 +169,7 @@ a {
 .section-1 .hashtag {
   display: flex;
   justify-content: center;
-  gap: 24px;
+  gap: 16px;
   margin-top: 24px;
 }
 
@@ -517,7 +517,7 @@ a {
 
 .section-6 .curriculum .curri-btn-list {
   display: flex;
-  gap: 24px;
+  gap: 16px;
   margin-bottom: 64px;
 }
 
@@ -837,7 +837,6 @@ a {
 .section-10 .recommend-case {
   display: flex;
   flex-direction: column;
-  gap: 24px;
   margin: 60px auto 0;
   width: 800px;
 }
