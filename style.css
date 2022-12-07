@@ -1470,16 +1470,19 @@ a {
     width: 100%;
     gap: 12px;
     margin-bottom: 32px;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    justify-content: center;
   }
 
   .section-6 .curriculum .curri-btn {
-    font-size: 14px;
-    height: 32px;
+    font-size: 16px;
+    height: 38px;
   }
 
   .section-6 .curriculum .curri-btn.curri-btn.is-active {
-    font-size: 14px;
-    height: 32px;
+    font-size: 16px;
+    height: 38px;
   }
 
   .section-6 .curriculum .curri-detail .curri-title {
@@ -1487,6 +1490,10 @@ a {
     margin-bottom: 24px;
   }
 
+  .section-6 .curriculum .curri-detail .week-detail-list .week-wrap{
+    width: 234px;
+    height: 100%;
+  }
   .section-6 .curriculum .curri-detail .week-detail-list {
     flex-direction: column;
   } 
