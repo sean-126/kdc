@@ -1154,7 +1154,7 @@ a {
 
 .section-12 .accordion h4 {
   font-size: 18px;
-  font-weight: var(--font-extrabold);
+  font-weight: var(--font-bold);
   color: var(--color-text-02);
   height: 100%;
 }
