@@ -4,7 +4,6 @@ const logoEl = document.querySelector('.logo a img')
 const headerMenuEls = [...document.querySelectorAll('.menu > li')]
 const headerApplyBtnEl = document.querySelector('.header .apply-btn a')
 
-console.log(typeof headerMenuEls)
 
 let headerChange = window.addEventListener('scroll', () => {
   if (window.scrollY > heroHeightEl.offsetHeight) {
