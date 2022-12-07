@@ -4,8 +4,7 @@ const logoEl = document.querySelector('.logo a img')
 const headerMenuEls = [...document.querySelectorAll('.menu > li')]
 const headerApplyBtnEl = document.querySelector('.header .apply-btn a')
 
-
-let headerChange = window.addEventListener('scroll', () => {
+let headerChangeWeb = window.addEventListener('scroll', () => {
   if (window.scrollY > heroHeightEl.offsetHeight) {
     headerEl.style.backgroundColor = '#fff';
     logoEl.src = './images/logo_codingx_kr.png';
@@ -23,3 +22,18 @@ let headerChange = window.addEventListener('scroll', () => {
   }
 })
 
+let headerChangeMobile = window.addEventListener('scroll', () => {
+  if (window.scrollY > heroHeightEl.offsetHeight) {
+    headerEl.style.backgroundColor = '#fff';
+    logoEl.src = './images/logo_codingx_kr.png';
+  }else {
+    headerEl.style.backgroundColor = '#101F41';
+    logoEl.src = './images/logo_codingx_kr_dark.png';
+  }  
+})
+
+if (window.screenX > 800) {
+  headerChangeWeb()
+} else {
+  headerChangeMobile()
+}

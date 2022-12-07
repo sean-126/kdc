@@ -1221,21 +1221,22 @@ a {
     text-align: center;
   }
   
-  header .logo {
+  /* header */
+  .header .logo {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
 
-  header .menu a {
+  .header .menu a {
     display: none;
   }
 
-  header .apply-btn {
+  .header .apply-btn {
     display: none;
   }
 
-  header .menu-btn {
+  .header .menu-btn {
     display: block;
     position: absolute;
     top: 50%;
