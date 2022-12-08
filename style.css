@@ -143,7 +143,7 @@ button {
 }
 
 .section-1 .kdc-logo {
-  background: url('./images/logo_kdc.png') no-repeat;
+  background: url('./images/logo_kdc.webp') no-repeat;
   background-position: center;
   background-size: cover;
   width: 349px;
@@ -203,7 +203,7 @@ button {
 }
 
 .section-1 .hero-img {
-  background: url('./images/kdcLandingHeroImg_web.png') no-repeat;
+  background: url('./images/kdcLandingHeroImg_web.webp') no-repeat;
   background-position: center;
   background-size: cover;
   width: 1200px;
@@ -282,7 +282,7 @@ button {
 }
 
 .section-3 .area-1 .img {
-  background: url('./images/kdcLandingArticle_web.png') no-repeat;
+  background: url('./images/kdcLandingArticle_web.webp') no-repeat;
   background-position: center;
   background-size: contain;
   width: 1200px;
@@ -332,25 +332,25 @@ button {
 }
 
 .section-3 .ex-contents .content-img.p1 {
-  background: url('./images/kdcLanding_P1.png'), radial-gradient(#fff, #eaeaea) no-repeat;
+  background: url('./images/kdcLanding_P1.webp'), radial-gradient(#fff, #eaeaea) no-repeat;
   background-position: center;
   background-size: 100%;
 }
 
 .section-3 .ex-contents .content-img.p2 {
-  background: url('./images/kdcLanding_P2.png'), radial-gradient(#fff, #eaeaea) no-repeat;
+  background: url('./images/kdcLanding_P2.webp'), radial-gradient(#fff, #eaeaea) no-repeat;
   background-position: center;
   background-size: 100%;
 }
 
 .section-3 .ex-contents .content-img.p3 {
-  background: url('./images/kdcLanding_P3.png'), radial-gradient(#fff, #eaeaea) no-repeat;
+  background: url('./images/kdcLanding_P3.webp'), radial-gradient(#fff, #eaeaea) no-repeat;
   background-position: center;
   background-size: 100%;
 }
 
 .section-3 .ex-contents .content-img.p4 {
-  background: url('./images/kdcLanding_P4.png'), radial-gradient(#fff, #eaeaea) no-repeat;
+  background: url('./images/kdcLanding_P4.webp'), radial-gradient(#fff, #eaeaea) no-repeat;
   background-position: center;
   background-size: 100%;
 }
@@ -449,7 +449,7 @@ button {
 }
 
 .section-5 .left-img {
-  background: url('./images/kdcFigureLeft_Web.png') no-repeat;
+  background: url('./images/kdcFigureLeft_Web.webp') no-repeat;
   background-size: contain;
   position: absolute;
   top: 50%;
@@ -460,7 +460,7 @@ button {
 }
 
 .section-5 .right-img {
-  background: url('./images/kdcFigureRight_Web.png') no-repeat;
+  background: url('./images/kdcFigureRight_Web.webp') no-repeat;
   background-size: contain;
   position: absolute;
   top: 50%;
@@ -617,7 +617,7 @@ button {
 }
 
 .section-7 .project-img {
-  background: url('./images/kdcLandingProject_Web.png') no-repeat;
+  background: url('./images/kdcLandingProject_Web.webp') no-repeat;
   background-size: contain;
   width: 100%;
   height: 472px;
@@ -817,7 +817,7 @@ button {
 }
 
 .section-9 .img {
-  background: url('./images/kdcLandingComparing_Web.png') no-repeat;
+  background: url('./images/kdcLandingComparing_Web.webp') no-repeat;
   background-size: contain;
   background-position: center;
   height: 502px;
@@ -873,16 +873,16 @@ button {
 }
 
 .section-10 .case-1 .character {
-  background-image: linear-gradient(180deg, rgba(1, 13, 48, 0) 60%, rgba(1, 13, 48, 1) 83%, rgba(1, 13, 48, 1) 100%), url('/images/kdcLandingCaseP1.png');
+  background-image: linear-gradient(180deg, rgba(1, 13, 48, 0) 60%, rgba(1, 13, 48, 1) 83%, rgba(1, 13, 48, 1) 100%), url('/images/kdcLandingCaseP1.webp');
   transform: scaleX(-1);
 }
 
 .section-10 .case-2 .character {
-  background-image: linear-gradient(180deg, rgba(1, 13, 48, 0) 60%, rgba(1, 13, 48, 1) 83%, rgba(1, 13, 48, 1) 100%), url('/images/kdcLandingCaseP2.png');
+  background-image: linear-gradient(180deg, rgba(1, 13, 48, 0) 60%, rgba(1, 13, 48, 1) 83%, rgba(1, 13, 48, 1) 100%), url('/images/kdcLandingCaseP2.webp');
 }
 
 .section-10 .case-3 .character {
-  background-image: linear-gradient(180deg, rgba(1, 13, 48, 0) 60%, rgba(1, 13, 48, 1) 83%, rgba(1, 13, 48, 1) 100%), url('/images/kdcLandingCaseP3.png');
+  background-image: linear-gradient(180deg, rgba(1, 13, 48, 0) 60%, rgba(1, 13, 48, 1) 83%, rgba(1, 13, 48, 1) 100%), url('/images/kdcLandingCaseP3.webp');
 }
 
 .section-10 .recommend-case .speech {
@@ -1064,7 +1064,7 @@ button {
 }
 
 .section-11 .user .user-img-1{
-  background-image: url('images/kdcLandingReview1_Web.png');
+  background-image: url('images/kdcLandingReview1_Web.webp');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -1073,7 +1073,7 @@ button {
 }
 
 .section-11 .user .user-img-2{
-  background-image: url('images/kdcLandingReview2_Web.png');
+  background-image: url('images/kdcLandingReview2_Web.webp');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -1082,7 +1082,7 @@ button {
 }
 
 .section-11 .user .user-img-3{
-  background-image: url('images/kdcLandingReview3_Web.png');
+  background-image: url('images/kdcLandingReview3_Web.webp');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -1302,7 +1302,7 @@ button {
   }
 
   .section-1 .hero-img {
-    background: url('./images/kdcLandingHeroImg_mobile.png.png') no-repeat;
+    background: url('./images/kdcLandingHeroImg_mobile.png.webp') no-repeat;
     background-position: center;
     background-size: contain;
     width: 100%;
@@ -1329,7 +1329,7 @@ button {
   }
 
   .section-3 .area-1 .img {
-    background: url('./images/kdcLandingArticle_mobile.png') no-repeat;
+    background: url('./images/kdcLandingArticle_mobile.webp') no-repeat;
     background-position: center;
     background-size: contain;
     width: auto;
@@ -1428,14 +1428,14 @@ button {
   /* section 5 */
 
    .section-5 .left-img {
-    background: url('./images/kdcFigureLeft_Mobile.png') no-repeat;
+    background: url('./images/kdcFigureLeft_Mobile.webp') no-repeat;
     background-size: contain;
     width: 80px;
     height: 95%;
   }
 
   .section-5 .right-img {
-    background: url('./images/kdcFigureRight_Mobile.png') no-repeat;
+    background: url('./images/kdcFigureRight_Mobile.webp') no-repeat;
     background-size: contain;
     width: 80px;
     height: 95%;
@@ -1519,7 +1519,7 @@ button {
   }
 
   .section-7 .project-img {
-    background: url('./images/kdcLandingProject_Mobile.png') no-repeat;
+    background: url('./images/kdcLandingProject_Mobile.webp') no-repeat;
     background-size: contain;
     background-position: center;
     height: 262px;
@@ -1667,7 +1667,7 @@ button {
   }
 
   .section-9 .img {
-    background: url('./images/kdcLandingComparing_Mobile.png') no-repeat;
+    background: url('./images/kdcLandingComparing_Mobile.webp') no-repeat;
     width: 100%;
     background-size: contain;
     background-position: center;
@@ -1712,16 +1712,16 @@ button {
   }
 
   .section-10 .case-1 .character {
-    background-image: linear-gradient(180deg, rgba(1, 13, 48, 0) 60%, rgba(1, 13, 48, 1) 83%, rgba(1, 13, 48, 1) 100%), url('/images/kdcLandingCaseP1.png');
+    background-image: linear-gradient(180deg, rgba(1, 13, 48, 0) 60%, rgba(1, 13, 48, 1) 83%, rgba(1, 13, 48, 1) 100%), url('/images/kdcLandingCaseP1.webp');
     transform: scaleX(-1);
   }
 
   .section-10 .case-2 .character {
-    background-image: linear-gradient(180deg, rgba(1, 13, 48, 0) 60%, rgba(1, 13, 48, 1) 83%, rgba(1, 13, 48, 1) 100%), url('/images/kdcLandingCaseP2.png');
+    background-image: linear-gradient(180deg, rgba(1, 13, 48, 0) 60%, rgba(1, 13, 48, 1) 83%, rgba(1, 13, 48, 1) 100%), url('/images/kdcLandingCaseP2.webp');
   }
 
   .section-10 .case-3 .character {
-    background-image: linear-gradient(180deg, rgba(1, 13, 48, 0) 60%, rgba(1, 13, 48, 1) 83%, rgba(1, 13, 48, 1) 100%), url('/images/kdcLandingCaseP3.png');
+    background-image: linear-gradient(180deg, rgba(1, 13, 48, 0) 60%, rgba(1, 13, 48, 1) 83%, rgba(1, 13, 48, 1) 100%), url('/images/kdcLandingCaseP3.webp');
   }
 
   .section-10 .recommend-case .speech {
@@ -1892,7 +1892,7 @@ button {
   }
 
   .section-11 .user .user-img-1{
-    background-image: url('images/kdcLandingReview1_Web.png');
+    background-image: url('images/kdcLandingReview1_Web.webp');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -1901,7 +1901,7 @@ button {
   }
 
   .section-11 .user .user-img-2{
-    background-image: url('images/kdcLandingReview2_Web.png');
+    background-image: url('images/kdcLandingReview2_Web.webp');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
@@ -1910,7 +1910,7 @@ button {
   }
 
   .section-11 .user .user-img-3{
-    background-image: url('images/kdcLandingReview3_Web.png');
+    background-image: url('images/kdcLandingReview3_Web.webp');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
