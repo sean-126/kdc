@@ -1287,7 +1287,7 @@ button {
     display: flex;
     flex-wrap: wrap;
     -webkit-box-pack: center;
-    gap: 16px;
+    gap: 8px;
   }
   
   .section-1 .hashtag > h4 {
