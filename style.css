@@ -169,7 +169,7 @@ a {
 .section-1 .hashtag {
   display: flex;
   justify-content: center;
-  gap: 16px;
+  gap: 8px;
   margin-top: 24px;
 }
 
@@ -216,7 +216,7 @@ a {
 }
 
 .section-2 .time {
-  width: 900px;
+  width: 840px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -846,6 +846,11 @@ a {
   display: flex;
   align-items: center;
   gap: 16px;
+}
+
+.section-10 .recommend-case .case-2,
+.section-10 .recommend-case .case-3 {
+  margin-top: -24px;
 }
 
 .section-10 .recommend-case .case-2 {
