@@ -3,6 +3,8 @@ const headerEl = document.querySelector('.header');
 const logoEl = document.querySelector('.logo a img')
 const headerMenuEls = [...document.querySelectorAll('.menu > li')]
 const headerApplyBtnEl = document.querySelector('.header .apply-btn a')
+const menuBtnLight = document.querySelector('.header .menu-btn .btn-light-mode')
+const menuBtnDark = document.querySelector('.header .menu-btn .btn-dark-mode')
 
 let headerChangeWeb = window.addEventListener('scroll', () => {
   if (window.scrollY > heroHeightEl.offsetHeight) {
@@ -26,9 +28,13 @@ let headerChangeMobile = window.addEventListener('scroll', () => {
   if (window.scrollY > heroHeightEl.offsetHeight) {
     headerEl.style.backgroundColor = '#fff';
     logoEl.src = './images/logo_codingx_kr.webp';
+    menuBtnLight.style.display = 'block';
+    menuBtnDark.style.display = 'none';
   }else {
     headerEl.style.backgroundColor = '#101F41';
     logoEl.src = './images/logo_codingx_kr_dark.webp';
+    menuBtnDark.style.display = 'block';
+    menuBtnLight.style.display = 'none';
   }  
 })
 

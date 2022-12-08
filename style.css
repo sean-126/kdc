@@ -1252,6 +1252,10 @@ button {
     cursor: pointer;
   }
 
+  .header .menu-btn .btn-light-mode{
+    display: none;
+  }
+
   /* section 1 */
 
   .section-1 .inner {
