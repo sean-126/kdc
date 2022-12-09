@@ -60,7 +60,7 @@
   const currentInfo = setCurrentInfo(applyInfo);
 
   const applyButtonList = document.querySelectorAll('.apply-button');
-  const floatingContainer = document.querySelector('.section-2 .time ul');
+  const floatingContainer = document.querySelector('.time ul');
   const generation = document.querySelector('.generation');
 
   // 모집기간, 수강기간 세팅
