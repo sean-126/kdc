@@ -29,24 +29,3 @@ btnEls.addEventListener('click', (event) => {
     activeBtn(target);
   }
 })
-
-// (() => {
-//   const btnEls = document.querySelector('.curri-btn-list');
-//   const curriEls = document.querySelector('.curri-detail-list');
-
-//   // 버튼 활성화
-//   const setClassActive = e => {
-//     const _activeBtn = btnEls.querySelector('.is-active');
-//     _activeBtn.classList.remove('is-active');
-//     e.classList.add('is-active');
-//   };
-
-//   // 이벤트리스너
-//   btnEls.addEventListener('click', e => {
-//     const target = e.target;
-
-//     if (target.nodeName === 'LI') {
-//       setClassActive(target);
-//     }
-//   });
-// })();

@@ -39,7 +39,7 @@ let headerChangeMobile = window.addEventListener('scroll', () => {
 })
 
 if (window.screenX > 800) {
-  headerChangeWeb()
+  headerChangeWeb
 } else {
-  headerChangeMobile()
+  headerChangeMobile
 }
