@@ -20,6 +20,34 @@
       GENERATION: 18,
       COURSE_START_DATE: moment('2022-12-23'),
     },
+    {
+      GENERATION: 19,
+      COURSE_START_DATE: moment('2022-12-28'),
+    },
+    {
+      GENERATION: 20,
+      COURSE_START_DATE: moment('2023-01-04'),
+    },
+    {
+      GENERATION: 21,
+      COURSE_START_DATE: moment('2023-01-11'),
+    },
+    {
+      GENERATION: 22,
+      COURSE_START_DATE: moment('2023-01-18'),
+    },
+    {
+      GENERATION: 23,
+      COURSE_START_DATE: moment('2023-01-24'),
+    },
+    {
+      GENERATION: 24,
+      COURSE_START_DATE: moment('2023-02-01'),
+    },
+    {
+      GENERATION: 25,
+      COURSE_START_DATE: moment('2023-02-07'),
+    },
   ];
 
   /**
